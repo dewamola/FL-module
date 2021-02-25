@@ -1,0 +1,88 @@
+{
+    "name": "fbl-core-game",
+    "title": "Forbidden Lands - Core Game",
+    "description": "",
+    "author": "aMediocreDad",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion": "0.7.9",
+    "systems": ["forbidden-lands"],
+    "esmodules": ["./scripts/init.js", "./scripts/import.js"],
+    "styles": ["./styles/style.css"],
+    "packs": [
+        {
+            "name": "core-game-actors",
+            "label": "Core Game actors",
+            "entity": "Actor",
+            "path": "packs/core-game-actors.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\core-game-actors.db"
+        },
+        {
+            "name": "core-game-items",
+            "label": "Core Game items",
+            "entity": "Item",
+            "path": "packs/core-game-items.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\core-game-items.db"
+        },
+        {
+            "name": "players-handbook-journal",
+            "label": "Player's Handbook journal",
+            "entity": "JournalEntry",
+            "path": "packs/players-handbook-journal.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\players-handbook-journal.db"
+        },
+        {
+            "name": "game-masters-guide-journal",
+            "label": "Game Master's Guide journal",
+            "entity": "JournalEntry",
+            "path": "packs/game-masters-guide-journal.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\game-masters-guide-journal.db"
+        },
+        {
+            "name": "core-game-macros",
+            "label": "Core Game macros",
+            "entity": "Macro",
+            "path": "packs/core-game-macros.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\core-game-macros.db"
+        },
+        {
+            "name": "core-game-tables",
+            "label": "Core Game tables",
+            "entity": "RollTable",
+            "path": "packs/core-game-tables.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\core-game-tables.db"
+        },
+        {
+            "name": "core-game-scenes",
+            "label": "Core Game scenes",
+            "entity": "Scene",
+            "path": "packs/core-game-scenes.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\core-game-scenes.db"
+        },
+        {
+            "name": "core-game-soundtrack",
+            "label": "Core Game soundtrack",
+            "entity": "Playlist",
+            "path": "packs/core-game-soundtrack.db",
+            "system": "forbidden-lands",
+            "package": "module",
+            "absPath": "..\\foundrydata\\Data\\modules\\fbl-core-game\\packs\\core-game-soundtrack.db"
+        }
+    ],
+    "protected": false,
+    "url": "https://frialigan.se/en/games/forbidden-lands/",
+    "manifest": "https://foundrymodulesbucket.s3.eu-north-1.amazonaws.com/fbl-core-game/module.json"
